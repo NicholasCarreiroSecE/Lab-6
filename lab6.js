@@ -20,12 +20,12 @@ for (let i = 1; i <= 5; i++) { //--- For Loop multiplies 3 by loop counter each 
 
 //--- Task Three ---//
 
-function addNumbers(num1, num2) { //--- Function defines the function, returns number one plus number two and calls the funtion with inputs ---//
+function addNumbers(num1, num2) { //--- Function defines the two variables, returns number one plus number two and calls the funtion with inputs ---//
     return num1 + num2; 
 }
 console.log(addNumbers(15, 15));
 
-function multiplyNumbers(num1, num2) {
+function multiplyNumbers(num1, num2) { //--- Function defines the two variables, returns number one multiplied by number two and calls the function with inputs ---//
     return num1 * num2;
 }
 console.log(multiplyNumbers(15, 15));
